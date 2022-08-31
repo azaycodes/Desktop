@@ -9,17 +9,28 @@
 <style>
     body{
     text-align:center;
+    overflow: hidden;
+    }
+    .blink {
+        animation: blinker 1.5s linear infinite;
+        color: black;
+        font-family: sans-serif;
+    }
+    @keyframes blinker {
+        50% {
+            color: white;
+        }
     }
 </style>
 </head>
 <body>
     
-    <div id="d1">
-        © 2003-2022 Ebenezer Nibba. All Rights Reserved.
+    <marquee class="blink" height="60%" direction="left" scrollamount="10" width="100%" id="d1">
+        © 2003-2022 bruhTECH. All Rights Reserved.
 KCG COLLEGE OF TECHNOLOGY, CHENNAI 600100, IN.
        No claim to copyright ownership is made to underlying materials originating with the Indian Government,
 including MPEP and TMEP sections and indexes, statutes, regulations, and court decisions.
 IMPORTANT: Please review the legal disclaimer and feedback page.
-    </div>  
+    </marquee>  
 </body>
 </html>

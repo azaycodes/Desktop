@@ -29,17 +29,17 @@
     position: absolute ;
     background-color: lightgreen;
     border: none;
-    height: 77%;
+    height: 79.5%;
     width: 33%;
     left: 28%;
     top: 12%;
-    bottom: 30%; 
+    bottom: 30%;
 }
 .if2{
     position: absolute ;
     background-color: lightgreen;
     border:none; 
-    height:77%;
+    height:79.5%;
     width: 33%;
     right: 3%;
     top: 12%;
@@ -78,7 +78,7 @@ a:link, a:visited, a:active{
     font-size: 24px;
     text-align:center;
     transition: 1.5s;
-    opacity: 100%;
+    opacity: 99%;
 }
 .btn{
   background-color:lightgreen;
